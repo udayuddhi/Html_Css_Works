@@ -1,0 +1,114 @@
+body{
+    background-image: url("https://th-thumbnailer.cdn-si-edu.com/C4MIxDa_YxisZm2EtoTNHweBKZU=/fit-in/1600x0/filters:focal(3126x2084:3127x2085)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/ec/e6/ece69181-708a-496e-b2b7-eaf7078b99e0/gettyimages-1310156391.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter:blur(3px);
+}
+
+.glass-effect{ 
+   
+    background-position: center;
+    background-size: cover;
+    
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+
+    width: 920px;
+    height: 530px;
+    background: radial-gradient(rgba(255,255,255,0.6));
+    border-radius: 20px;
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.6);
+   
+}
+
+.logo{
+    color: rgb(210, 75, 2); 
+    font-size: 35px;
+    float: left;
+    cursor: pointer;
+}
+nav{
+    display: flex;
+    align-items: center;
+    padding: 10px 5%;
+}
+nav ul{
+    flex: 1;
+    text-align: right;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #000;
+    transition: 0.2s ease;
+}
+nav ul li a:hover{
+    color: blue;
+}
+img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.info{
+    margin-left: 30px;
+    padding: 18px;
+}
+p{
+    color: rgb(210, 75, 2);
+}
+button{
+    cursor: pointer;
+    text-decoration: none;
+    padding: 6px 16px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #000;
+    border: 0;
+    outline: 0;
+    font-family: cursive;
+    border-radius: 5px; 
+    transition: 0.2s ease;
+}
+button:hover{
+    background-color:#fff ;
+    color: #000;
+}
+
+
+.si{
+    display: flex;
+}
+.si ul{
+    flex: 1;
+    text-align: right;
+}
+.si ul li{
+    list-style: none;
+    display: inline-block;
+    margin:0 20px ;
+    padding:0 20px;
+}
+.si ul li i{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    cursor: pointer;   
+}
+.si ul li i:hover{
+    background-color: white;
+    color:blue ;
+}
+

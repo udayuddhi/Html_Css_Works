@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+</head>
+<body>
+<head>
+   <style>
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+       
+    }
+   div{
+    margin-top: 5%;
+      display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+       align-items: center;
+       background: rgb(240, 217, 187);
+       width: 500px;
+       height: 500px;
+       border-radius: 30px;
+       box-shadow: 5px 5px 20px ;
+    }
+      table{
+        position: relative;
+        width: 380px;
+         border: 1px solid rgb(255, 2, 2);
+         text-align: center;
+      }
+      table, th, td {
+        
+        border: 1px solid rgb(0, 0, 0);
+        background: rgba(40, 159, 233,.2);
+
+      }
+      th{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-transform: uppercase;
+        background: rgba(40, 159, 233,.5);
+      }
+    
+   </style>
+</head>
+<body>
+    <div>
+    <table>
+        <tr>
+          
+          <th rowspan="2">s.no</th>
+          <th rowspan="2">animal name</th>
+          <th rowspan="2">image</th>
+          <th colspan="2">category</th>
+        </tr>
+        <tr>
+           
+            <th>ecosystem</th>
+            <th>type</th>
+
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Elephant</td>
+          <td><img src="https://th-thumbnailer.cdn-si-edu.com/uU2yeTMc7zCmJ9jucjzHiYWMqYc=/1000x750/filters:no_upscale():focal(1061x707:1062x708)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/9f/c4/9fc48192-36b9-443b-aee8-3f33668bc70f/gettyimages-1271819220.jpg" height="50px" width="80px"></td>
+          <td>terrstrial</td>
+          <td>Hebivores</td>
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>lion</td>
+            <td><img src="https://cdn.britannica.com/29/150929-050-547070A1/lion-Kenya-Masai-Mara-National-Reserve.jpg"height="50px" width="80px" ></td>
+            <td>Terrestrial</td>
+            <td>Carnivores</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>tiger</td>
+            <td><img src="http://t1.gstatic.com/licensed-image?q=tbn:ANd9GcRG87OqwveVRysa7M-3cPvsmaCfrwLKJMJ9h7skQZKXoTSIOx-Z9DOqEwjcEn2q_jtUu2NWHAhJkoGC9iE"height="50px" width="80px" ></td>
+            <td>Terrestrial</td>
+            <td>Carnivores</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>goat</td>
+            <td><img src="https://images.unsplash.com/photo-1524024973431-2ad916746881?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8Z29hdHxlbnwwfHwwfHw%3D&w=1000&q=80" height="50px" width="80px"></td>
+            <td>Domestic</td>
+            <td>Hebivores</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>cow</td>
+            <td><img src="https://dug.com/wp-content/uploads/2021/08/Webp.net-resizeimage-5.jpg" height="50px" width="80px"></td>
+            <td>domestic</td>
+            <td>Hebivores</td>
+          </tr>
+      </table>
+
+    </div>
+    
+
+</body>
+</html>
